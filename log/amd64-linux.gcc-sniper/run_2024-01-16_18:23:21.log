@@ -1,0 +1,12 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simsmall started on Tue Jan 16 18:23:21 UTC 2024.
+[PARSEC] Using /tmp/tmpDoXqHt as run directory root.
+[PARSEC] Benchmarks to run:  blackscholes
+
+[PARSEC] [========== Running benchmark blackscholes ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simsmall'.
+in_4K.txt
+[PARSEC] Running '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/record-trace  --routine-tracing -o /tmp/tmpHngaxF/run_benchmarks -e 1 -r 1 -s 0  --  /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/blackscholes/inst/amd64-linux.gcc-sniper/bin/blackscholes 2 in_4K.txt prices.txt':
+[PARSEC] [---------- Beginning of output ----------]

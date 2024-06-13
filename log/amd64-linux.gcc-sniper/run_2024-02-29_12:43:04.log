@@ -1,0 +1,8 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simsmall started on Thu Feb 29 12:43:04 UTC 2024.
+[PARSEC] Using /tmp/tmpXP_p79 as run directory root.
+[PARSEC] Benchmarks to run:  bodytrack
+
+[PARSEC] [========== Running benchmark bodytrack ==========]
+[PARSEC] Error: Binary '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/bodytrack/inst/amd64-linux.gcc-sniper/bin/bodytrack' of package 'bodytrack' cannot be found.

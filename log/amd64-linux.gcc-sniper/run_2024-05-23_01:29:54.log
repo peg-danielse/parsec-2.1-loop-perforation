@@ -1,0 +1,13 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simmedium started on Thu May 23 01:29:54 UTC 2024.
+[PARSEC] Using /tmp/tmpW6OnUk as run directory root.
+[PARSEC] Benchmarks to run:  swaptions
+
+[PARSEC] [========== Running benchmark swaptions ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simmedium' available, skipping input setup.
+[PARSEC] Running '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/record-trace  --routine-tracing -o /tmp/tmpZlx3ud/run_benchmarks -e 1 -r 1 -s 0  --  /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/swaptions/inst/amd64-linux.gcc-sniper/bin/swaptions -ns 32 -sm 10000 -nt 9':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

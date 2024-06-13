@@ -1,0 +1,22 @@
+[PARSEC] [========== PARSEC 2.1 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc-sniper started on Fri Feb 16 11:36:24 UTC 2024.
+[PARSEC] Packages to build:  bodytrack
+
+[PARSEC] [========== Building package bodytrack ==========]
+[PARSEC] [---------- Analyzing package bodytrack ----------]
+[PARSEC] bodytrack depends on: hooks
+[PARSEC] [---------- Analyzing package hooks ----------]
+[PARSEC] Package hooks already exists, proceeding.
+[PARSEC] [---------- Building package bodytrack ----------]
+[PARSEC] Removing old build directory.
+[PARSEC] Running 'env CXXFLAGS=-O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/tools/hooks -I/include -fexceptions /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/bodytrack/src/configure --enable-threads --disable-openmp --disable-tbb --prefix=/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/bodytrack/inst/amd64-linux.gcc-sniper':
+checking for a BSD-compatible install... /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether /usr/bin/make sets $(MAKE)... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for style of include used by /usr/bin/make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... [PARSEC] Error: 'env CXXFLAGS=-O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/tools/hooks -I/include -fexceptions /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/bodytrack/src/configure --enable-threads --disable-openmp --disable-tbb --prefix=/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/bodytrack/inst/amd64-linux.gcc-sniper' failed.

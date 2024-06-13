@@ -1,0 +1,18 @@
+[PARSEC] [========== PARSEC 2.1 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc-sniper started on Tue Jan 30 20:07:31 UTC 2024.
+[PARSEC] Packages to build:  blackscholes bodytrack facesim ferret freqmine raytrace swaptions fluidanimate vips x264 canneal dedup streamcluster
+
+[PARSEC] [========== Building package blackscholes ==========]
+[PARSEC] [---------- Analyzing package blackscholes ----------]
+[PARSEC] blackscholes depends on: hooks
+[PARSEC] [---------- Analyzing package hooks ----------]
+[PARSEC] Package hooks already exists, proceeding.
+[PARSEC] [---------- Building package blackscholes ----------]
+[PARSEC] Removing old build directory.
+[PARSEC] Copying source code of package blackscholes.
+[PARSEC] Running 'env version=pthreads /usr/bin/make':
+make[2]: Entering directory '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/blackscholes/obj/amd64-linux.gcc-sniper'
+rm -f blackscholes  blackscholes.m4.cpp
+make[2]: Leaving directory '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/blackscholes/obj/amd64-linux.gcc-sniper'
+[PARSEC] Error: 'env version=pthreads /usr/bin/make' failed.

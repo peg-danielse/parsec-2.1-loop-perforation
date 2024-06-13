@@ -1,0 +1,44 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simmedium started on Thu May 23 11:55:11 UTC 2024.
+[PARSEC] Using /tmp/tmpMkULJR as run directory root.
+[PARSEC] Benchmarks to run:  bodytrack
+
+[PARSEC] [========== Running benchmark bodytrack ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simmedium'.
+sequenceB_2/
+sequenceB_2/BodyShapeParameters.txt
+sequenceB_2/CALIB/
+sequenceB_2/CALIB/Camera1.cal
+sequenceB_2/CALIB/Camera2.cal
+sequenceB_2/CALIB/Camera3.cal
+sequenceB_2/CALIB/Camera4.cal
+sequenceB_2/CAM1/
+sequenceB_2/CAM1/image0000.bmp
+sequenceB_2/CAM1/image0001.bmp
+sequenceB_2/CAM2/
+sequenceB_2/CAM2/image0000.bmp
+sequenceB_2/CAM2/image0001.bmp
+sequenceB_2/CAM3/
+sequenceB_2/CAM3/image0000.bmp
+sequenceB_2/CAM3/image0001.bmp
+sequenceB_2/CAM4/
+sequenceB_2/CAM4/image0000.bmp
+sequenceB_2/CAM4/image0001.bmp
+sequenceB_2/FG1/
+sequenceB_2/FG1/image0000.bmp
+sequenceB_2/FG1/image0001.bmp
+sequenceB_2/FG2/
+sequenceB_2/FG2/image0000.bmp
+sequenceB_2/FG2/image0001.bmp
+sequenceB_2/FG3/
+sequenceB_2/FG3/image0000.bmp
+sequenceB_2/FG3/image0001.bmp
+sequenceB_2/FG4/
+sequenceB_2/FG4/image0000.bmp
+sequenceB_2/FG4/image0001.bmp
+sequenceB_2/InitialPose.txt
+sequenceB_2/PoseParameters.txt
+[PARSEC] Running '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/record-trace  --routine-tracing -o /tmp/tmpMcK_kx/run_benchmarks -e 1 -r 1 -s 0  --  /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/bodytrack/inst/amd64-linux.gcc-sniper/bin/bodytrack sequenceB_2 4 2 2000 5 0 8 /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/':
+[PARSEC] [---------- Beginning of output ----------]

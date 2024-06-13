@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# simaccuracy.runconf set for collecting data on the impact of perforation within parsec.
+
+
+# Binary file to execute, relative to installation root
+run_exec="bin/streamcluster"
+
+# Arguments to use
+# run_args="10 20 32 4096 4096 1000 none output.txt ${NTHREADS}"
+run_args="2 7 54 81920 4096 1000 ${BENCHMARKS_ROOT}/parsec/parsec-2.1/pkgs/kernels/streamcluster/inputs/covtype-small.data ${BENCHMARKS_ROOT}/output.txt ${NTHREADS}"

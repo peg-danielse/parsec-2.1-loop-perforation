@@ -1,0 +1,19 @@
+[PARSEC] [========== PARSEC 2.1 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc-sniper started on Tue Apr 16 09:45:14 UTC 2024.
+[PARSEC] Packages to build:  blackscholes
+
+[PARSEC] [========== Building package blackscholes ==========]
+[PARSEC] [---------- Analyzing package blackscholes ----------]
+[PARSEC] blackscholes depends on: hooks
+[PARSEC] [---------- Analyzing package hooks ----------]
+[PARSEC] Package hooks already exists, proceeding.
+[PARSEC] [---------- Building package blackscholes ----------]
+[PARSEC] Removing old build directory.
+[PARSEC] Copying source code of package blackscholes.
+[PARSEC] Running 'env version=pthreads /usr/bin/make':
+rm -f blackscholes  blackscholes.m4.cpp
+/usr/bin/m4 ./c.m4.pthreads blackscholes.c > blackscholes.m4.cpp
+g++ -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/./parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/tools/hooks -I/home/pager/Documents/approx_computing/HotSniper-LoopPerf/include -pthread -DENABLE_THREADS -DN=960 -DNCO=4   blackscholes.m4.cpp perforation.c -L/usr/lib64 -L/usr/lib -L/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/./parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/tools/hooks -lhooks_base -lrt -pthread  -lhooks -lhb-shared -o blackscholes 
+Makefile:65: recipe for target 'blackscholes' failed
+[PARSEC] Error: 'env version=pthreads /usr/bin/make' failed.

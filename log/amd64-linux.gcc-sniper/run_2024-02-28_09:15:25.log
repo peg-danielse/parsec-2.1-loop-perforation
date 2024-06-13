@@ -1,0 +1,14 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simmedium started on Wed Feb 28 09:15:25 UTC 2024.
+[PARSEC] Using /tmp/tmp8GrllX as run directory root.
+[PARSEC] Benchmarks to run:  canneal
+
+[PARSEC] [========== Running benchmark canneal ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simmedium'.
+200000.nets
+[PARSEC] Running '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/record-trace  --routine-tracing -o /tmp/tmpGpWgQ4/run_benchmarks -e 1 -r 1 -s 0  --  /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/kernels/canneal/inst/amd64-linux.gcc-sniper/bin/canneal 3 15000 2000 200000.nets 64':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

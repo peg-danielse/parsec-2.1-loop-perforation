@@ -1,0 +1,13 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simaccuracy started on Sat Jun 1 10:56:25 UTC 2024.
+[PARSEC] Using /tmp/tmpPX9lfK as run directory root.
+[PARSEC] Benchmarks to run:  streamcluster
+
+[PARSEC] [========== Running benchmark streamcluster ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simaccuracy' available, skipping input setup.
+[PARSEC] Running '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/record-trace  --routine-tracing -o /tmp/tmpWpo2t7/run_benchmarks -e 1 -r 1 -s 0  --  /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/kernels/streamcluster/inst/amd64-linux.gcc-sniper/bin/streamcluster 2 7 54 81920 4096 1000 /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/kernels/streamcluster/inputs/covtype-small.data /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/output.txt 7':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

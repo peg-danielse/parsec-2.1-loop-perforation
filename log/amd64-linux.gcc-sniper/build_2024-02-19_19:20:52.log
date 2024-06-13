@@ -1,0 +1,42 @@
+[PARSEC] [========== PARSEC 2.1 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc-sniper started on Mon Feb 19 19:20:52 UTC 2024.
+[PARSEC] Packages to build:  blackscholes bodytrack facesim ferret freqmine raytrace swaptions fluidanimate vips x264 canneal dedup streamcluster
+
+[PARSEC] [========== Building package blackscholes ==========]
+[PARSEC] [---------- Analyzing package blackscholes ----------]
+[PARSEC] Package blackscholes already exists, proceeding.
+
+[PARSEC] [========== Building package bodytrack ==========]
+[PARSEC] [---------- Analyzing package bodytrack ----------]
+[PARSEC] Package bodytrack already exists, proceeding.
+
+[PARSEC] [========== Building package facesim ==========]
+[PARSEC] [---------- Analyzing package facesim ----------]
+[PARSEC] Package facesim already exists, proceeding.
+
+[PARSEC] [========== Building package ferret ==========]
+[PARSEC] [---------- Analyzing package ferret ----------]
+[PARSEC] Package ferret already exists, proceeding.
+
+[PARSEC] [========== Building package freqmine ==========]
+[PARSEC] [---------- Analyzing package freqmine ----------]
+[PARSEC] Package freqmine already exists, proceeding.
+
+[PARSEC] [========== Building package raytrace ==========]
+[PARSEC] [---------- Analyzing package raytrace ----------]
+[PARSEC] Package raytrace already exists, proceeding.
+
+[PARSEC] [========== Building package swaptions ==========]
+[PARSEC] [---------- Analyzing package swaptions ----------]
+[PARSEC] swaptions depends on: hooks
+[PARSEC] [---------- Analyzing package hooks ----------]
+[PARSEC] Package hooks already exists, proceeding.
+[PARSEC] [---------- Building package swaptions ----------]
+[PARSEC] Copying source code of package swaptions.
+[PARSEC] Running 'env version=pthreads /usr/bin/make':
+make[2]: Entering directory '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/swaptions/obj/amd64-linux.gcc-sniper'
+g++ -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/tools/hooks -I/home/pager/Documents/approx_computing/HotSniper-LoopPerf/include -pthread  -DENABLE_THREADS -c perforation.cpp -o perforation.o
+Makefile:28: recipe for target 'perforation.o' failed
+make[2]: Leaving directory '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/swaptions/obj/amd64-linux.gcc-sniper'
+[PARSEC] Error: 'env version=pthreads /usr/bin/make' failed.

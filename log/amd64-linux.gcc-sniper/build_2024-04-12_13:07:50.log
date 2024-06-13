@@ -1,0 +1,9 @@
+[PARSEC] [========== PARSEC 2.1 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc-sniper started on Fri Apr 12 13:07:50 UTC 2024.
+[PARSEC] Packages to build:  swaptions
+
+[PARSEC] [========== Building package swaptions ==========]
+[PARSEC] [---------- Analyzing package swaptions ----------]
+[PARSEC] Package swaptions already exists, proceeding.
+[PARSEC] Done.

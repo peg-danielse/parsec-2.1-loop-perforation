@@ -1,0 +1,13 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simsmall started on Fri Mar 1 11:40:46 UTC 2024.
+[PARSEC] Using /tmp/tmp9vQam2 as run directory root.
+[PARSEC] Benchmarks to run:  swaptions
+
+[PARSEC] [========== Running benchmark swaptions ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simsmall' available, skipping input setup.
+[PARSEC] Running '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/record-trace  --routine-tracing -o /tmp/tmpbNdhKO/run_benchmarks -e 1 -r 1 -s 0  --  /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/swaptions/inst/amd64-linux.gcc-sniper/bin/swaptions -ns 16 -sm 5000 -nt 3':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

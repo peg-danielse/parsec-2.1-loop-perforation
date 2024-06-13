@@ -1,0 +1,13 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simsmall started on Fri May 31 14:01:38 UTC 2024.
+[PARSEC] Using /tmp/tmpS2CPUb as run directory root.
+[PARSEC] Benchmarks to run:  streamcluster
+
+[PARSEC] [========== Running benchmark streamcluster ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simsmall' available, skipping input setup.
+[PARSEC] Running '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/record-trace  --routine-tracing -o /tmp/tmpM5mGmG/run_benchmarks -e 1 -r 1 -s 0  --  /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/kernels/streamcluster/inst/amd64-linux.gcc-sniper/bin/streamcluster 10 20 32 4096 256 1000 none /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/output.txt 2':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

@@ -1,0 +1,16 @@
+[PARSEC] [========== PARSEC 2.1 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc started on Tue Jan 16 16:19:37 UTC 2024.
+[PARSEC] Packages to build:  blackscholes
+
+[PARSEC] [========== Building package blackscholes ==========]
+[PARSEC] [---------- Analyzing package blackscholes ----------]
+[PARSEC] blackscholes does not depend on any other packages.
+[PARSEC] [---------- Building package blackscholes ----------]
+[PARSEC] Copying source code of package blackscholes.
+[PARSEC] Running 'env version=pthreads /usr/bin/make':
+rm -f blackscholes  blackscholes.m4.cpp
+/usr/bin/m4 ./c.m4.pthreads blackscholes.c > blackscholes.m4.cpp
+/usr/bin/g++ -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -pthread -DENABLE_THREADS -DN=960 -DNCO=4   blackscholes.m4.cpp -L/usr/lib64 -L/usr/lib  -o blackscholes 
+Makefile:65: recipe for target 'blackscholes' failed
+[PARSEC] Error: 'env version=pthreads /usr/bin/make' failed.

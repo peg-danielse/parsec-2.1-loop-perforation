@@ -1,0 +1,14 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simsmall started on Sun Mar 3 04:02:11 UTC 2024.
+[PARSEC] Using /tmp/tmpPjgCtL as run directory root.
+[PARSEC] Benchmarks to run:  canneal
+
+[PARSEC] [========== Running benchmark canneal ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simsmall'.
+100000.nets
+[PARSEC] Running '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/record-trace  --routine-tracing -o /tmp/tmpjFBhSn/run_benchmarks -e 1 -r 1 -s 0  --  /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/kernels/canneal/inst/amd64-linux.gcc-sniper/bin/canneal 3 10000 2000 100000.nets 32':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

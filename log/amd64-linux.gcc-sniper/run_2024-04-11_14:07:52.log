@@ -1,0 +1,25 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simsmall started on Thu Apr 11 14:07:52 UTC 2024.
+[PARSEC] Using /tmp/tmpEHCcGY as run directory root.
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simsmall started on Thu Apr 11 14:07:52 UTC 2024.
+[PARSEC] Using /tmp/tmpSKzrrW as run directory root.
+[PARSEC] Benchmarks to run:  swaptions
+[PARSEC] Benchmarks to run:  x264
+
+
+[PARSEC] [========== Running benchmark swaptions ==========]
+[PARSEC] [========== Running benchmark x264 ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'simsmall' available, skipping input setup.
+[PARSEC] Unpacking benchmark input 'simsmall'.
+[PARSEC] Running '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/record-trace  --routine-tracing -o /tmp/tmpRfFL0H/run_benchmarks -e 1 -r 1 -s 0  --  /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/swaptions/inst/amd64-linux.gcc-sniper/bin/swaptions -ns 16 -sm 5000 -nt 1':
+eledream_640x360_8.y4m
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] Running '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/record-trace  --routine-tracing -o /tmp/tmpRfFL0H/run_benchmarks -e 1 -r 1 -s 1  --  /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/x264/inst/amd64-linux.gcc-sniper/bin/x264 --quiet --qp 20 --partitions b8x8,i4x4 --ref 5 --direct auto --b-pyramid --weightb --mixed-refs --no-fast-pskip --me umh --subme 7 --analyse b8x8,i4x4 --threads 1 -o /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/eledream.264 eledream_640x360_8.y4m':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.
