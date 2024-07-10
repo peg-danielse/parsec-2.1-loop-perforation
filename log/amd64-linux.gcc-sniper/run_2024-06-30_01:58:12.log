@@ -1,0 +1,15 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simlarge started on Sun Jun 30 01:58:12 UTC 2024.
+[PARSEC] Using /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs as run directory root.
+[PARSEC] Benchmarks to run:  x264
+
+[PARSEC] [========== Running benchmark x264 ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+eledream_640x360_128.y4m
+[PARSEC] Running 'time /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/x264/inst/amd64-linux.gcc-sniper/bin/x264 --quiet --qp 20 --partitions b8x8,i4x4 --ref 5 --direct auto --b-pyramid --weightb --mixed-refs --no-fast-pskip --me umh --subme 7 --analyse b8x8,i4x4 --threads 4 -o /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/eledream.264 eledream_640x360_128.y4m':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

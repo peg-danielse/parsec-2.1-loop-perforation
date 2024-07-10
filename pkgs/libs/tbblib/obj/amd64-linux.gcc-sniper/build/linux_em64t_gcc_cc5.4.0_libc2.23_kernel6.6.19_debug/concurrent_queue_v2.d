@@ -1,0 +1,7 @@
+concurrent_queue_v2.o: ../../src/old/concurrent_queue_v2.cpp \
+ ../../src/old/concurrent_queue_v2.h ../../include/tbb/tbb_stddef.h \
+ ../../include/tbb/cache_aligned_allocator.h \
+ ../../include/tbb/tbb_stddef.h ../../include/tbb/spin_mutex.h \
+ ../../include/tbb/tbb_machine.h ../../include/tbb/machine/linux_em64t.h \
+ ../../include/tbb/machine/linux_common.h ../../include/tbb/atomic.h \
+ ../../include/tbb/tbb_machine.h ../../src/old/../tbb/tbb_misc.h

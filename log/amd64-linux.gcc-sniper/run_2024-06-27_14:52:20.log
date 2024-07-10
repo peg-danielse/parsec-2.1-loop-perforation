@@ -1,0 +1,5 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simlarge started on Thu Jun 27 14:52:20 UTC 2024.
+[PARSEC] Using /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs as run directory root.
+[PARSEC] Benchmarks to run:  swaptions

@@ -1,0 +1,13 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input test started on Wed Jun 26 13:45:37 UTC 2024.
+[PARSEC] Using /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/./parsec/parsec-2.1/pkgs as run directory root.
+[PARSEC] Benchmarks to run:  swaptions
+
+[PARSEC] [========== Running benchmark swaptions ==========]
+[PARSEC] Setting up run directory.
+[PARSEC] No archive for input 'test' available, skipping input setup.
+[PARSEC] Running 'time /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/./parsec/parsec-2.1/pkgs/apps/swaptions/inst/amd64-linux.gcc-sniper/bin/swaptions -ns 1 -sm 5 -nt 1':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

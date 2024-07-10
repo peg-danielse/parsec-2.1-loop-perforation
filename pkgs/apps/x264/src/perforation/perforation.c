@@ -25,6 +25,8 @@ kv_map app_code_map[] = {
 
 int pr[LOOP_COUNT];
 
+int manual_perforation = 0;
+
 int app_id = -1;
 int app_code = -1;
 
@@ -43,6 +45,27 @@ int to_application_code(char* name) {
 
 void init_perforation() 
 {
+    if(getenv("MANUAL_PERFORATION") != NULL){
+        manual_perforation = 1;
+        // printf("Running with manual perforation rate: ");
+
+        char *token = strtok(getenv("MANUAL_PERFORATION"), ",");
+
+        int i = 0;
+        while (token != NULL && i < LOOP_COUNT) {
+            pr[i++] = atoi(token);
+            token = strtok(NULL, ",");
+        }
+
+        for(int i = 0; i < LOOP_COUNT; i++){
+            // printf("%d, ", pr[i]);
+        }
+
+        // printf("\n");
+
+        return;
+    } 
+
     for(int i = 0; i < LOOP_COUNT; i++){
         pr[i] = 0;
     }
@@ -60,7 +83,7 @@ void init_perforation()
     app_code = to_application_code(app_name);
 
      int ret = set_sim_app(app_id, app_code);
-    printf("recieved app id: %d from (%d = %s). (notify = %d)\n", app_id, app_code, app_name, ret);    
+    // printf("recieved app id: %d from (%d = %s). (notify = %d)\n", app_id, app_code, app_name, ret);    
 }
 
 int set_sim_app(int app_id, int app_code) {
@@ -77,6 +100,10 @@ int get_loop_rate(int loop_id)
 }
 
 void update_perforation_rates() {
+    if(manual_perforation == 1){
+        return;
+    }
+
     for(int i = 0; i < LOOP_COUNT; i++) {
         pr[i] = fetch_perforation_rate(i);
     }
@@ -184,8 +211,8 @@ void print_vec(int *vec, int n, int pr)
     }
     
     // printf("]\n");
-    printf("len: %d, executed: %d, pr: %d, pr_actual: %f, k: %d, mf: %f\n", 
-                                n, j, pr, 
-                                (((float)n - (float)j) / (float)n), 
-                                get_k(n, pr), get_mf(n, pr));
+    // printf("len: %d, executed: %d, pr: %d, pr_actual: %f, k: %d, mf: %f\n", 
+                                // n, j, pr, 
+                                // (((float)n - (float)j) / (float)n), 
+                                // get_k(n, pr), get_mf(n, pr));
 }

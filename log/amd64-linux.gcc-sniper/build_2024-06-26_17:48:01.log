@@ -1,0 +1,9 @@
+[PARSEC] [========== PARSEC 2.1 BUILD LOGFILE ==========]
+
+[PARSEC] Build amd64-linux.gcc-sniper started on Wed Jun 26 17:48:01 UTC 2024.
+[PARSEC] Packages to build:  blackscholes
+
+[PARSEC] [========== Building package blackscholes ==========]
+[PARSEC] [---------- Analyzing package blackscholes ----------]
+[PARSEC] Package blackscholes already exists, proceeding.
+[PARSEC] Done.

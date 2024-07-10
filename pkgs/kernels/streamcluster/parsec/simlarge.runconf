@@ -16,5 +16,5 @@
 run_exec="bin/streamcluster"
 
 # Arguments to use
-run_args="10 20 128 16384 256 1000 none ${BENCHMARKS_ROOT}/output.txt ${NTHREADS}"
-
+# run_args="10 20 128 16384 256 1000 none ${BENCHMARKS_ROOT}/output.txt ${NTHREADS}"
+run_args="5 7 54 81920 4096 1000 ${BENCHMARKS_ROOT}/parsec/parsec-2.1/pkgs/kernels/streamcluster/inputs/covtype-small.data ${BENCHMARKS_ROOT}/output.txt ${NTHREADS}"

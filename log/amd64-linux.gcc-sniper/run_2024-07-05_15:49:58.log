@@ -1,0 +1,39 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simsmall started on Fri Jul 5 15:49:58 UTC 2024.
+[PARSEC] Using /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs as run directory root.
+[PARSEC] Benchmarks to run:  bodytrack
+
+[PARSEC] [========== Running benchmark bodytrack ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simsmall'.
+sequenceB_1/
+sequenceB_1/BodyShapeParameters.txt
+sequenceB_1/CALIB/
+sequenceB_1/CALIB/Camera1.cal
+sequenceB_1/CALIB/Camera2.cal
+sequenceB_1/CALIB/Camera3.cal
+sequenceB_1/CALIB/Camera4.cal
+sequenceB_1/CAM1/
+sequenceB_1/CAM1/image0000.bmp
+sequenceB_1/CAM2/
+sequenceB_1/CAM2/image0000.bmp
+sequenceB_1/CAM3/
+sequenceB_1/CAM3/image0000.bmp
+sequenceB_1/CAM4/
+sequenceB_1/CAM4/image0000.bmp
+sequenceB_1/FG1/
+sequenceB_1/FG1/image0000.bmp
+sequenceB_1/FG2/
+sequenceB_1/FG2/image0000.bmp
+sequenceB_1/FG3/
+sequenceB_1/FG3/image0000.bmp
+sequenceB_1/FG4/
+sequenceB_1/FG4/image0000.bmp
+sequenceB_1/InitialPose.txt
+sequenceB_1/PoseParameters.txt
+[PARSEC] Running 'time /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/bodytrack/inst/amd64-linux.gcc-sniper/bin/bodytrack sequenceB_1 4 1 1000 5 0 4 /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

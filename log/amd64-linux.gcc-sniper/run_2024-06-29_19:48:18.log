@@ -1,0 +1,63 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc-sniper binaries and input simlarge started on Sat Jun 29 19:48:18 UTC 2024.
+[PARSEC] Using /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs as run directory root.
+[PARSEC] Benchmarks to run:  bodytrack
+
+[PARSEC] [========== Running benchmark bodytrack ==========]
+[PARSEC] Deleting old run directory.
+[PARSEC] Setting up run directory.
+[PARSEC] Unpacking benchmark input 'simlarge'.
+sequenceB_4/
+sequenceB_4/BodyShapeParameters.txt
+sequenceB_4/CALIB/
+sequenceB_4/CALIB/Camera1.cal
+sequenceB_4/CALIB/Camera2.cal
+sequenceB_4/CALIB/Camera3.cal
+sequenceB_4/CALIB/Camera4.cal
+sequenceB_4/CAM1/
+sequenceB_4/CAM1/image0000.bmp
+sequenceB_4/CAM1/image0001.bmp
+sequenceB_4/CAM1/image0002.bmp
+sequenceB_4/CAM1/image0003.bmp
+sequenceB_4/CAM2/
+sequenceB_4/CAM2/image0000.bmp
+sequenceB_4/CAM2/image0001.bmp
+sequenceB_4/CAM2/image0002.bmp
+sequenceB_4/CAM2/image0003.bmp
+sequenceB_4/CAM3/
+sequenceB_4/CAM3/image0000.bmp
+sequenceB_4/CAM3/image0001.bmp
+sequenceB_4/CAM3/image0002.bmp
+sequenceB_4/CAM3/image0003.bmp
+sequenceB_4/CAM4/
+sequenceB_4/CAM4/image0000.bmp
+sequenceB_4/CAM4/image0001.bmp
+sequenceB_4/CAM4/image0002.bmp
+sequenceB_4/CAM4/image0003.bmp
+sequenceB_4/FG1/
+sequenceB_4/FG1/image0000.bmp
+sequenceB_4/FG1/image0001.bmp
+sequenceB_4/FG1/image0002.bmp
+sequenceB_4/FG1/image0003.bmp
+sequenceB_4/FG2/
+sequenceB_4/FG2/image0000.bmp
+sequenceB_4/FG2/image0001.bmp
+sequenceB_4/FG2/image0002.bmp
+sequenceB_4/FG2/image0003.bmp
+sequenceB_4/FG3/
+sequenceB_4/FG3/image0000.bmp
+sequenceB_4/FG3/image0001.bmp
+sequenceB_4/FG3/image0002.bmp
+sequenceB_4/FG3/image0003.bmp
+sequenceB_4/FG4/
+sequenceB_4/FG4/image0000.bmp
+sequenceB_4/FG4/image0001.bmp
+sequenceB_4/FG4/image0002.bmp
+sequenceB_4/FG4/image0003.bmp
+sequenceB_4/InitialPose.txt
+sequenceB_4/PoseParameters.txt
+[PARSEC] Running 'time /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/parsec/parsec-2.1/pkgs/apps/bodytrack/inst/amd64-linux.gcc-sniper/bin/bodytrack sequenceB_4 4 4 4000 5 0 4 /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/':
+[PARSEC] [---------- Beginning of output ----------]
+[PARSEC] [----------    End of output    ----------]
+[PARSEC] Done.

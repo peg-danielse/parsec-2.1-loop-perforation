@@ -25,6 +25,8 @@ kv_map app_code_map[] = {
 
 int pr[LOOP_COUNT];
 
+int manual_perforation = 0;
+
 int app_id = -1;
 int app_code = -1;
 
@@ -43,6 +45,20 @@ int to_application_code(char* name) {
 
 void init_perforation() 
 {
+    if(getenv("MANUAL_PERFORATION") != NULL){
+        manual_perforation = 1;
+        
+        char *token = strtok(getenv("MANUAL_PERFORATION"), ",");
+
+        int i = 0;
+        while (token != NULL && i < LOOP_COUNT) {
+            pr[i++] = atoi(token);
+            token = strtok(NULL, ",");
+        }
+
+        return;
+    } 
+
     for(int i = 0; i < LOOP_COUNT; i++){
         pr[i] = 0;
     }
@@ -77,6 +93,10 @@ int get_loop_rate(int loop_id)
 }
 
 void update_perforation_rates() {
+    if(manual_perforation == 1){
+        return;
+    }
+
     for(int i = 0; i < LOOP_COUNT; i++) {
         pr[i] = fetch_perforation_rate(i);
     }

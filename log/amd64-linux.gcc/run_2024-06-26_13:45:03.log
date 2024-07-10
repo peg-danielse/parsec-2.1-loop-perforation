@@ -1,0 +1,8 @@
+[PARSEC] [========== PARSEC 2.1 RUN LOGFILE ==========]
+
+[PARSEC] Run with amd64-linux.gcc binaries and input test started on Wed Jun 26 13:45:03 UTC 2024.
+[PARSEC] Using /home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/./parsec/parsec-2.1/pkgs as run directory root.
+[PARSEC] Benchmarks to run:  swaptions
+
+[PARSEC] [========== Running benchmark swaptions ==========]
+[PARSEC] Error: Binary '/home/pager/Documents/approx_computing/HotSniper-LoopPerf/benchmarks/./parsec/parsec-2.1/pkgs/apps/swaptions/inst/amd64-linux.gcc/bin/swaptions' of package 'swaptions' cannot be found.

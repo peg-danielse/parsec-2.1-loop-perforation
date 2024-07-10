@@ -1,3 +1,17 @@
+LOOP PERFORATION 0.9
+
+This version of Parsec 2.1 has been loop perforation enhanced for the following benchmarks:
+	- Blackscholes
+	- Bodytrack
+	- Canneal
+	- Streamclusters
+	- Swaptions
+	- x264
+
+The perforation code was made to specifically communicate with the HotSniper platform and will
+need addaptation for other uses
+
+
 PARSEC Benchmark Suite 2.0
 ==========================
 
